@@ -7,7 +7,7 @@ import (
 )
 
 func main() {
-	data := []string{"dfdf", "fdfs", "hjhj", "khjkjh", "bcbvb", "sfsese"}
+	data := []string{"aaaa", "bbbb", "vvvv", "cccc", "rrrr", "gggg"}
 	limit := make(chan bool, 3)
 	var ff sync.WaitGroup
 
